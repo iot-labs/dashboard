@@ -1,12 +1,20 @@
-*.class
+/bin/
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+.classpath
+.project
+.settings/
+.idea/
+.gradle/
+!gradle-wrapper.jar
+.gradletasknamecache
+/build/
+*.properties
 
-# Package Files #
-*.jar
-*.war
-*.ear
+# mqtt
+.lck
+*.mapdb
+*.mapdb.p
+*.mapdb.t
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+#osx
+.DS_Store
