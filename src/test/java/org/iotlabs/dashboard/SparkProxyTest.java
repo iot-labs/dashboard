@@ -16,8 +16,6 @@ import java.net.URL;
 import static org.junit.Assert.assertEquals;
 
 public class SparkProxyTest {
-    private static Logger logger = LogManager.getLogger(SparkProxyTest.class);
-
 
     @BeforeClass
     public static void beforeClass() {
@@ -35,8 +33,10 @@ public class SparkProxyTest {
         waitForInit();
         URL ok200Url = new URL("http://127.0.0.1:4567/test/");
         URL notFound404Url = new URL("http://127.0.0.1:4567/notfound/");
+        URL testJsonModel = new URL("http://127.0.0.1:4567/test/json");
         httpExec(ok200Url, 200, "test");
         httpExec(notFound404Url, 404, null);
+        httpExec(testJsonModel, 200, "{\"id\":1,\"user\":\"test\"}");
     }
 
     private void waitForInit() {
