@@ -19,3 +19,7 @@
 
 #osx
 .DS_Store
+
+# IoT Labs defined
+.idea
+*.iml
