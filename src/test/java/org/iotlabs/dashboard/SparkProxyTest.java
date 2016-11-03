@@ -1,7 +1,5 @@
 package org.iotlabs.dashboard;
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 import org.iotlabs.dashboard.blueprints.TestBluePrint;
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
