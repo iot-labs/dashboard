@@ -6,7 +6,7 @@
 
 ## Language
 
-* [English](https://github.com/iot-labs/dashboard/blob/master/README.md)
+* [English](https://github.com/iot-labs/dashboard)
 * [Korean](https://github.com/iot-labs/dashboard/blob/master/README.kr.md)
 
 
@@ -15,6 +15,7 @@
 IoT Labs aims to provide a framework for (communication/storage/analysis) in IoT development for increased productivity.
 And, "IoT Labs - dashboard" is subproject of IoT Labs.
 
-Please, visit here for documentation.
+Please, visit [here](https://github.com/iot-labs/communication) for documentation.
 
 * Documentation : [IoT Labs](https://github.com/iot-labs/communication)
+* Repository : [IoT Labs](https://github.com/iot-labs)
