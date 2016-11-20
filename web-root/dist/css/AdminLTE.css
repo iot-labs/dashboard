@@ -583,14 +583,7 @@ a:focus {
     margin-left: 50px !important;
     z-index: 840;
   }
-  .sidebar-mini.sidebar-collapse .main-sidebar {
-    -webkit-transform: translate(0, 0);
-    -ms-transform: translate(0, 0);
-    -o-transform: translate(0, 0);
-    transform: translate(0, 0);
-    width: 50px !important;
-    z-index: 850;
-  }
+
   .sidebar-mini.sidebar-collapse .sidebar-menu > li {
     position: relative;
   }
@@ -643,14 +636,12 @@ a:focus {
     display: none !important;
     -webkit-transform: translateZ(0);
   }
-  .sidebar-mini.sidebar-collapse .main-header .logo {
-    width: 50px;
-  }
+
   .sidebar-mini.sidebar-collapse .main-header .logo > .logo-mini {
     display: block;
     margin-left: -15px;
     margin-right: -15px;
-    font-size: 18px;
+    font-size: 22;
   }
   .sidebar-mini.sidebar-collapse .main-header .logo > .logo-lg {
     display: none;
@@ -678,9 +669,9 @@ a:focus {
 }
 .sidebar-menu li > a > .pull-right-container {
   position: absolute;
-  right: 10px;
-  top: 50%;
-  margin-top: -7px;
+  right: 11px;
+  top: 30%;
+  margin-top: -9px;
 }
 
 .control-sidebar-bg {
@@ -702,9 +693,9 @@ a:focus {
   padding-top: 50px;
   z-index: 1010;
 }
-@media (max-width: 768px) {
+@media (max-width: 780px) {
   .control-sidebar {
-    padding-top: 100px;
+    padding-top: 120px;
   }
 }
 .control-sidebar > .tab-content {
