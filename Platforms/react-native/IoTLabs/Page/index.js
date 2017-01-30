@@ -9,38 +9,49 @@ import {
     AppRegistry,
     StyleSheet,
     Text,
-    View
+    View,
+    Platform,
+    BackAndroid
 } from 'react-native';
 
-export default class IoTLabs extends Component {
-    render() {
+import Intros from '../Page/Intro';
+
+var Index = React.createClass({
+    componentWillMount(){
+        //setTimeout(() => this.changeComponent("CardList"), 2000);
+    },
+    getInitialState: function() { return {componentSelected: 'Intro'}},
+    changeComponent: function(component) {this.setState({componentSelected: component})},
+    renderComponent: function(component) {
+        if(component == 'Intro') {
+            return <Intro changeComponent={this.changeComponent} />
+        }
+    },
+    /*전체 감싸는 페이지*/
+    render: function() {
         return (
             <View style={styles.container}>
-    <Text style={styles.welcome}>
-        Welcome to IoT Labs
-        </Text>
-        </View>
-    );
+                {this.renderComponent(this.state.componentSelected)}
+            </View>
+        );
     }
-}
+});
+
+var Intro = React.createClass({render: function() {return (<Intros/>)}})
+
 
 const styles = StyleSheet.create({
     container: {
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
-        backgroundColor: '#F5FCFF',
-    },
-    welcome: {
-        fontSize: 20,
-        textAlign: 'center',
-        margin: 10,
-    },
-    instructions: {
-        textAlign: 'center',
-        color: '#333333',
-        marginBottom: 5,
     },
 });
 
-AppRegistry.registerComponent('IoTLabs', () => IoTLabs);
+module.exports = Index, {
+    server: '',
+    ///server: 'http://localhost:8080/celebq/',
+    //server: 'https://www.celebq.com/',
+    uid: '',
+    email: '',
+};
