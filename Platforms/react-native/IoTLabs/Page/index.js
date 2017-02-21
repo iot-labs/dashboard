@@ -11,20 +11,25 @@ import {
     Text,
     View,
     Platform,
-    BackAndroid
+    BackAndroid,
+    Dimensions
 } from 'react-native';
 
 import Intros from '../Page/Intro';
+import Dashboards from '../Page/Dashboard';
 
 var Index = React.createClass({
     componentWillMount(){
-        //setTimeout(() => this.changeComponent("CardList"), 2000);
+        setTimeout(() => this.changeComponent("Dashboard"), 500);
     },
     getInitialState: function() { return {componentSelected: 'Intro'}},
     changeComponent: function(component) {this.setState({componentSelected: component})},
     renderComponent: function(component) {
         if(component == 'Intro') {
             return <Intro changeComponent={this.changeComponent} />
+        }
+        else if(component == 'Dashboard') {
+            return <Dashboard changeComponent={this.changeComponent} />
         }
     },
     /*전체 감싸는 페이지*/
@@ -38,6 +43,7 @@ var Index = React.createClass({
 });
 
 var Intro = React.createClass({render: function() {return (<Intros/>)}})
+var Dashboard = React.createClass({render: function() {return (<Dashboards/>)}})
 
 
 const styles = StyleSheet.create({
@@ -49,9 +55,6 @@ const styles = StyleSheet.create({
 });
 
 module.exports = Index, {
-    server: '',
-    ///server: 'http://localhost:8080/celebq/',
-    //server: 'https://www.celebq.com/',
-    uid: '',
-    email: '',
+    width: '',
+    height: '',
 };
