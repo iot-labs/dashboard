@@ -6,10 +6,11 @@
 
 import React, { Component } from 'react';
 import {
-  AppRegistry,
-  StyleSheet,
-  Text,
-  View
+    AppRegistry,
+    StyleSheet,
+    Text,
+    View,
+    Dimensions
 } from 'react-native';
 import Index from './Page/index';
 
@@ -28,7 +29,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#F5FCFF',
+    marginTop: -Dimensions.get("window").height * 0.03
   },
 });
 
