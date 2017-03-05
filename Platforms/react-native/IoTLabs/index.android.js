@@ -17,10 +17,10 @@ import Index from './Page/index';
 export default class IoTLabs extends Component {
   render() {
     return (
-      <View style={styles.container}>
-        <Index/>
-      </View>
-    );
+        <View style={styles.container}>
+  <Index/>
+    </View>
+  );
   }
 }
 
@@ -30,6 +30,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     marginTop: -Dimensions.get("window").height * 0.03
+    backgroundColor: '#F2F4F8',
   },
 });
 

@@ -6,10 +6,10 @@
 
 import React, { Component } from 'react';
 import {
-      AppRegistry,
-      StyleSheet,
-      Text,
-      View
+    AppRegistry,
+    StyleSheet,
+    Text,
+    View
 } from 'react-native';
 import Index from './Page/index';
 
@@ -19,7 +19,7 @@ export default class IoTLabs extends Component {
         <View style={styles.container}>
           <Index/>
         </View>
-    );
+  );
   }
 }
 
@@ -28,6 +28,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
+    backgroundColor: '#F2F4F8',
   },
 });
 
