@@ -51,10 +51,12 @@ const styles = StyleSheet.create({
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
+        backgroundColor: '#F2F4F8',
     },
 });
 
 module.exports = Index, {
     width: '',
     height: '',
+    deta:'',
 };
