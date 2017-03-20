@@ -36,6 +36,86 @@ export default class Intro extends Component {
         duration : 10000
     }
     componentWillMount(){
+        GLOBAL.deta = {
+            "airDust1": [
+                { "hour" : 9, "value" : 32 },
+                { "hour" : 10, "value" : 37 },
+                { "hour" : 11, "value" : 41 },
+                { "hour" : 12, "value" : 25 },
+                { "hour" : 13, "value" : 22 },
+                { "hour" : 14, "value" : 47 },
+                { "hour" : 15, "value" : 58 },
+                { "hour" : 16, "value" : 74 },
+                { "hour" : 17, "value" : 120 },
+                { "hour" : 18, "value" : 90 },
+                { "hour" : 19, "value" : 78 }
+            ],
+            "airDust2": [
+                { "hour" : 9, "value" : 82 },
+                { "hour" : 10, "value" : 72 },
+                { "hour" : 11, "value" : 60 },
+                { "hour" : 12, "value" : 51 },
+                { "hour" : 13, "value" : 43 },
+                { "hour" : 14, "value" : 48 },
+                { "hour" : 15, "value" : 72 },
+                { "hour" : 16, "value" : 88 },
+                { "hour" : 17, "value" : 85 },
+                { "hour" : 18, "value" : 90 },
+                { "hour" : 19, "value" : 78 }
+            ],
+            "temperature1": [
+                { "hour" : 9, "value" : 23 },
+                { "hour" : 10, "value" : 24 },
+                { "hour" : 11, "value" : 26 },
+                { "hour" : 12, "value" : 28 },
+                { "hour" : 13, "value" : 30 },
+                { "hour" : 14, "value" : 32 },
+                { "hour" : 15, "value" : 31 },
+                { "hour" : 16, "value" : 29 },
+                { "hour" : 17, "value" : 27 },
+                { "hour" : 18, "value" : 26 },
+                { "hour" : 19, "value" : 23 },
+            ],
+            "temperature2": [
+                { "hour" : 9, "value" : 21 },
+                { "hour" : 10, "value" : 26 },
+                { "hour" : 11, "value" : 28 },
+                { "hour" : 12, "value" : 29 },
+                { "hour" : 13, "value" : 30 },
+                { "hour" : 14, "value" : 34 },
+                { "hour" : 15, "value" : 31 },
+                { "hour" : 16, "value" : 27 },
+                { "hour" : 17, "value" : 25 },
+                { "hour" : 18, "value" : 23 },
+                { "hour" : 19, "value" : 21 }
+            ],
+            "humidity1": [
+                { "hour" : 9, "value" : 65 },
+                { "hour" : 10, "value" : 60 },
+                { "hour" : 11, "value" : 58 },
+                { "hour" : 12, "value" : 42 },
+                { "hour" : 13, "value" : 36 },
+                { "hour" : 14, "value" : 27 },
+                { "hour" : 15, "value" : 28 },
+                { "hour" : 16, "value" : 26 },
+                { "hour" : 17, "value" : 39 },
+                { "hour" : 18, "value" : 47 },
+                { "hour" : 19, "value" : 59 }
+            ],
+            "humidity2": [
+                { "hour" : 9, "value" : 72 },
+                { "hour" : 10, "value" : 79 },
+                { "hour" : 11, "value" : 93 },
+                { "hour" : 12, "value" : 95 },
+                { "hour" : 13, "value" : 91 },
+                { "hour" : 14, "value" : 95 },
+                { "hour" : 15, "value" : 92 },
+                { "hour" : 16, "value" : 88 },
+                { "hour" : 17, "value" : 85 },
+                { "hour" : 18, "value" : 81 },
+                { "hour" : 19, "value" : 83 }
+            ]
+        }
     }
     componentDidMount(){
     }
