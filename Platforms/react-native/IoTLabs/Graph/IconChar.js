@@ -1,7 +1,7 @@
 /**
- * Sample React Native App
- * https://github.com/facebook/react-native
- * @flow
+ * Card component.
+ * It has been made into components so that it can be easily used on other screens.
+ * Sample : <IconChar size={GLOBAL.width*0.9} title="타이틀" value={72} color="#2FA6D9"/>
  */
 
 import React, { Component } from 'react';

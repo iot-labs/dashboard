@@ -1,7 +1,12 @@
 /**
- * Sample React Native App
- * https://github.com/facebook/react-native
- * @flow
+ * Bar chart component.
+ * It has been made into components so that it can be easily used on other screens.
+ * Sample :
+        <BarGraph size={GLOBAL.width*0.9}
+           maxdeta={120}
+           deta=""
+           title="타이틀"
+        />
  */
 
 import React, { Component } from 'react';

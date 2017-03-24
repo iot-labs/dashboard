@@ -1,7 +1,7 @@
 /**
- * Sample React Native App
- * https://github.com/facebook/react-native
- * @flow
+ * Line chart component.
+ * It has been made into components so that it can be easily used on other screens.
+ * Sample : <RowGraph size={GLOBAL.width*0.9} title="타이틀" value1={72} maxValue={100}/>
  */
 
 import React, { Component } from 'react';
