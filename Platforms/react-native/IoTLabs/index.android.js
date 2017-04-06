@@ -29,7 +29,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    marginTop: -Dimensions.get("window").height * 0.03
+    marginTop: -Dimensions.get("window").height * 0.03,
     backgroundColor: '#F2F4F8',
   },
 });
