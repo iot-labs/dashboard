@@ -30,7 +30,7 @@ export default class TopMenu extends Component {
     render() {
         return (
             <View style={styles.container}>
-                <TouchableHighlight style={styles.sideArea} onPress={() => null}>
+                <TouchableHighlight style={styles.sideArea} onPress={() => this._reactInternalInstance._currentElement._owner._instance.setState({leftManu:true})}>
                     <Text style={styles.topText}><MaterialCommunityIcons name="menu" size={GLOBAL.width*0.09} color="#fff"/></Text>
                 </TouchableHighlight>
 
@@ -38,9 +38,7 @@ export default class TopMenu extends Component {
                     <Text style={styles.topText}>IoT Labs</Text>
                 </View>
 
-                <TouchableHighlight style={styles.sideArea} onPress={() => null}>
-                    <Text style={styles.topText}><MaterialCommunityIcons name="refresh" size={GLOBAL.width*0.09} color="#fff"/></Text>
-                </TouchableHighlight>
+                <View style={styles.sideArea}/>
             </View>
         );
     }
