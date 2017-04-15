@@ -29,6 +29,7 @@ export default class RowGraph extends Component {
         subTitle : this.props.subTitle,
         maxValue : this.props.maxValue,
         value1 : this.props.value1,
+        color : this.props.color,
 
         padding : (GLOBAL.width - this.props.size)/2,
         colorBar : this.props.value1 / this.props.maxValue * 100 * ((this.props.size-(GLOBAL.width - this.props.size))/100),
@@ -77,7 +78,7 @@ export default class RowGraph extends Component {
             bottomLable_colorBar:{
                 width: this.state.colorBar,
                 height: this.state.size*0.025,
-                backgroundColor:'#04D6B2',
+                backgroundColor:this.state.color,
             },
         });
         return (
