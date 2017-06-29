@@ -63,3 +63,38 @@ Please, visit [here](https://github.com/iot-labs/communication) for documentatio
 
 <img src="https://user-images.githubusercontent.com/897510/27680279-2b711968-5cf6-11e7-979c-0ca3a04e5bae.jpg" width="49%" />
 
+
+## License
+* [IoT Labs](https://github.com/jongkwang/IoTLabs) is under [MIT](https://opensource.org/licenses/MIT) license.
+* The respective licenses of all software and fonts must be honored.
+* Software and fonts used:
+	* Font
+		* Font : [스케치명조](http://www.asiasoft.co.kr/)
+	* Open Source
+		* Design Template : [AdminLTE](https://github.com/almasaeed2010/AdminLTE) - [MIT](https://opensource.org/licenses/MIT)
+    * Mobile version : [React Native](https://github.com/facebook/react-native) - [BSD License](https://github.com/facebook/react-native/blob/master/LICENSE)
+
+
+```text
+The MIT License (MIT)
+
+Copyright (c) 2016 IoT Labs (https://github.com/jongkwang/IoTLabs)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
