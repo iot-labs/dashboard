@@ -33,3 +33,21 @@ IoT Labs 는 IoT 개발에 어려움이 되는 (통신/저장/분석)을 프레�
 #### Grid
 
 ![screen shot 2016-12-07 at 10 15 20 am](https://cloud.githubusercontent.com/assets/897510/20950946/2c75c326-bc66-11e6-8ca8-a50159908f70.png)
+
+
+## Device - Arduino
+
+#### Fine Dust
+
+![fritzing sketch - air dust_bb](https://user-images.githubusercontent.com/897510/27678622-ce105c3e-5cf0-11e7-9e1b-0992a17111fe.png)
+
+* Resistor : 150 om
+* Capacitor : 220 uf
+* Fine Dust Sensor : GP2Y1010AU0F
+* Arduino : NodeMCU
+
+
+
+
+
+
