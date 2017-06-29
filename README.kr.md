@@ -50,13 +50,17 @@ IoT Labs 는 IoT 개발에 어려움이 되는 (통신/저장/분석)을 프레�
 
 #### Fine Dust
 
-![fritzing sketch - air dust_bb](https://user-images.githubusercontent.com/897510/27678622-ce105c3e-5cf0-11e7-9e1b-0992a17111fe.png)
+
 
 * Resistor : 150 om
 * Capacitor : 220 uf
 * Fine Dust Sensor : GP2Y1010AU0F
 * Arduino : NodeMCU
 
+
+<img src="https://user-images.githubusercontent.com/897510/27678622-ce105c3e-5cf0-11e7-9e1b-0992a17111fe.png" width="49%" />
+
+<img src="https://user-images.githubusercontent.com/897510/27680279-2b711968-5cf6-11e7-979c-0ca3a04e5bae.jpg" width="49%" />
 
 
 
