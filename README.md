@@ -33,3 +33,33 @@ Please, visit [here](https://github.com/iot-labs/communication) for documentatio
 #### Grid
 
 ![screen shot 2016-12-07 at 10 15 20 am](https://cloud.githubusercontent.com/assets/897510/20950946/2c75c326-bc66-11e6-8ca8-a50159908f70.png)
+
+
+## Dashboard - mobile
+
+#### Spec
+
+* JavaScript , React-Native
+* Path : https://github.com/iot-labs/dashboard/tree/master/Platforms/react-native
+
+<img src="https://user-images.githubusercontent.com/897510/27678787-7a6856da-5cf1-11e7-86dc-9491335e32b6.png" height="470" /> <img src="https://user-images.githubusercontent.com/897510/27678784-7a63e910-5cf1-11e7-96d6-c13df0f66c89.png" height="470" /> <img src="https://user-images.githubusercontent.com/897510/27678785-7a64d942-5cf1-11e7-887f-1259b6f5baa6.png" height="470" /> <img src="https://user-images.githubusercontent.com/897510/27678788-7a695d6e-5cf1-11e7-929e-38d9f3569552.png" height="470" /> <img src="https://user-images.githubusercontent.com/897510/27678786-7a67c2ce-5cf1-11e7-9f8d-ae06275c0d7a.png" height="470" />
+
+
+
+
+## Device - Arduino
+
+#### Fine Dust
+
+
+
+* Resistor : 150 om
+* Capacitor : 220 uf
+* Fine Dust Sensor : GP2Y1010AU0F
+* Arduino : NodeMCU
+
+
+<img src="https://user-images.githubusercontent.com/897510/27678622-ce105c3e-5cf0-11e7-9e1b-0992a17111fe.png" width="49%" />
+
+<img src="https://user-images.githubusercontent.com/897510/27680279-2b711968-5cf6-11e7-979c-0ca3a04e5bae.jpg" width="49%" />
+
